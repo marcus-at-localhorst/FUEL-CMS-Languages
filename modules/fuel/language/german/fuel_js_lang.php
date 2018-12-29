@@ -101,4 +101,4 @@ $lang['btn_remove'] = 'Entfernen';
 $lang['assets_need_to_save'] = '"Speichern" klicken um dieses Bild zu verwenden';
 
 /* End of file fuel_js_lang.php */
-/* Location: ./modules/fuel/language/english/fuel_js_lang.php */
+/* Location: ./modules/fuel/language/german/fuel_js_lang.php */
