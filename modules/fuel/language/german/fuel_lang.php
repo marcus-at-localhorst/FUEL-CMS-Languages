@@ -64,8 +64,8 @@ $lang['error_invalid_record'] = "The module record does not exists.";
 |--------------------------------------------------------------------------
 */
 $lang['warn_change_default_pwd'] = '<strong>Wir empfehlen Ihnen dringend Ihr Passwort zu ändern <em>%1s</em></strong>.';
-$lang['warn_not_published'] = 'This item is not published.';
-$lang['warn_not_active'] = 'This %1s is not active.';
+$lang['warn_not_published'] = 'Dieser Eintrag ist nicht veröffentlicht.';
+$lang['warn_not_active'] = '%1s ist nicht aktiv.';
 
 
 /*
@@ -75,7 +75,7 @@ $lang['warn_not_active'] = 'This %1s is not active.';
 */
 $lang['logged_in'] = "%s angemeldet";
 $lang['logged_out'] = "%s abgemeldet";
-$lang['dev_pwd_instructions'] = 'This site is currently in development and requires a password to view.';
+$lang['dev_pwd_instructions'] = 'Diese Seite ist im Entwicklermodus. Zur Ansicht wird ein Passwort benötigt.';
 $lang['login_forgot_pwd'] = 'Passwort vergessen?';
 $lang['login_reset_pwd'] = 'Passwort zurücksetzen';
 $lang['login_btn'] = 'Anmelden';
@@ -261,8 +261,8 @@ $lang['page_yes_upload'] = 'Ja, hochladen';
 $lang['page_information'] = 'Seiteninformationen';
 $lang['page_layout_vars'] = 'Layout Variablen';
 
-$lang['pages_instructions'] = 'Here you can manage the data associated with the page.';
-$lang['pages_associated_navigation'] = 'Associated Navigation';
+$lang['pages_instructions'] = 'Hier können sie alle mit der Seite verbundenen Daten bearbeiten.';
+$lang['pages_associated_navigation'] = 'Verknüpfte Navigation';
 $lang['pages_success_upload'] = 'The page view was successfully uploaded.';
 $lang['pages_upload_instructions'] = 'Select a view file and upload to a page below.';
 $lang['pages_select_action'] = 'Auswählen';
@@ -315,7 +315,7 @@ $lang['form_label_hidden'] = 'Versteckt';
 $lang['error_location_parents_match'] = 'Location and parents can\'t match.';
 
 // for upload form
-$lang['form_label_clear_first'] = 'Clear First';
+$lang['form_label_clear_first'] = 'Zuerst leeren';
 
 
 /*
@@ -337,24 +337,24 @@ $lang['form_label_resize_and_crop'] = 'beschneiden fall nötig';
 $lang['form_label_overwrite'] = 'Überschreiben';
 $lang['form_label_width'] = 'Breite';
 $lang['form_label_height'] = 'Höhe';
-$lang['form_label_alt'] = 'Alt';
-$lang['form_label_align'] = 'Align';
-$lang['form_label_master_dim'] = 'Master dimension';
+$lang['form_label_alt'] = 'Alternative Text';
+$lang['form_label_align'] = 'Ausrichtung';
+$lang['form_label_master_dim'] = 'Hauptabmessung';
 $lang['form_label_unzip'] = 'Zip Dateien entpacken';
 $lang['assets_upload_action'] = 'Hochladen';
 $lang['assets_select_action'] = 'Auswählen';
-$lang['assets_comment_asset_folder'] = 'The asset folder that it will be uploaded to';
+$lang['assets_comment_asset_folder'] = 'Der Uploadordner';
 $lang['assets_comment_filename'] = 'If no name is provided, the filename that already exists will be used.';
 $lang['assets_comment_subfolder'] = 'Will attempt to create a new subfolder to place your asset.';
 $lang['assets_comment_overwrite'] = 'Overwrite a file with the same name. If unchecked, a new file will be uploaded with a version number appended to the end of it.';
 $lang['assets_heading_general'] = 'General';
-$lang['assets_heading_image_specific'] = 'Image Specific';
-$lang['assets_comment_thumb'] = 'Create a thumbnail of the image.';
+$lang['assets_heading_image_specific'] = 'Bildspezifische Optionen';
+$lang['assets_comment_thumb'] = 'Vorschaubild erzeugen.';
 $lang['assets_comment_resize_method'] = 'Maintains the aspect ratio or resizes and crops the image to fit the provided dimensions. If "Create thumbnail" is selected, it will only effect the size of the thumbnail.';
 $lang['assets_comment_width'] = 'Will change the width of an image to the desired amount. If "Create thumbnail" is selected, then it will only effect the size of the thumbnail.';
 $lang['assets_comment_height'] = 'Will change the height of an image to the desired amount. If "Create thumbnail" is selected, it will only effect the size of the thumbnail.';
 $lang['assets_comment_master_dim'] = 'Specifies the master dimension to use for resizing. If the source image size does not allow perfect resizing to those dimensions, this setting determines which axis should be used as the hard value. "auto" sets the axis automatically based on whether the image is taller then wider, or vice versa.';
-$lang['assets_comment_unzip'] = 'Unzips a zip file';
+$lang['assets_comment_unzip'] = 'Zip Datei entpacken';
 
 /*
 |--------------------------------------------------------------------------
@@ -370,7 +370,7 @@ $lang['sitevariables_scope'] = 'Sichtbarkeit';
 | Users
 |--------------------------------------------------------------------------
 */
-$lang['users_instructions'] = 'Here you can manage the data for users.';
+$lang['users_instructions'] = 'Benutzerdaten können hier bearbeitet werden.';
 $lang['permissions_heading'] = 'Rechte';
 $lang['form_label_language'] = 'Sprache';
 $lang['form_label_send_email'] = 'Email senden';
@@ -541,7 +541,7 @@ $lang['required_text'] = 'Pflichtfelder';
 | Layouts
 |--------------------------------------------------------------------------
 */
-$lang['layout_field_main_copy'] = 'This is the main layout to be used for your site.';
+$lang['layout_field_main_copy'] = 'Das Hauptlayout für diese Website.';
 $lang['layout_field_page_title'] = 'Seitentitel';
 $lang['layout_field_meta_description'] = 'SEO Beschreibung';
 $lang['layout_field_meta_keywords'] = 'SEO Keywords';
@@ -549,7 +549,7 @@ $lang['layout_field_body'] = 'Hauptbereich';
 $lang['layout_field_heading'] = 'Überschrift';
 $lang['layout_field_main_bg'] = 'Hintergrundfoto';
 $lang['layout_field_body_description'] = 'Hauptbereich der Seite';
-$lang['layout_field_body_class'] = 'Hauptbereichsklasse';
+$lang['layout_field_body_class'] = 'Hauptbereich Klasse';
 $lang['layout_field_redirect_to'] = 'Weiterleiten';
 
 $lang['layout_field_301_redirect_copy'] = 'This layout will do a 301 redirect to another page.';
@@ -651,4 +651,4 @@ $lang['update_success'] = 'Update complete!';
 include('fuel_js_lang.php');
 
 /* End of file fuel_lang.php */
-/* Location: ./modules/fuel/language/english/fuel_lang.php */
+/* Location: ./modules/fuel/language/german/fuel_lang.php */
